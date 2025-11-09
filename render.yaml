@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: price-comparator-backend
+    env: python
+    plan: free
+    region: frankfurt
+
+    buildCommand: |
+      pip install -r requirements.txt
+      python manage.py collectstatic --noinput
+
+    startCommand: gunicorn backend.wsgi:application
+
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: backend.settings
+      - key: PYTHON_VERSION
+        value: 3.13.2
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: false

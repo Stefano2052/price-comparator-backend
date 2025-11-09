@@ -1,0 +1,3822 @@
+[
+  {
+    "code": "1",
+    "name": "ALIMENTARI",
+    "tag": "alimentari_1",
+    "parent_tag": null,
+    "translations": {
+      "it": {
+        "name": "ALIMENTARI"
+      },
+      "en": {
+        "name": "ALIMENTARI"
+      },
+      "es": {
+        "name": "ALIMENTARI"
+      },
+      "fr": {
+        "name": "ALIMENTARI"
+      }
+    }
+  },
+  {
+    "code": "1.1",
+    "name": "Pasta, riso e cereali",
+    "tag": "pasta_riso_e_cereali_1_1",
+    "parent_tag": "alimentari_1",
+    "translations": {
+      "it": {
+        "name": "Pasta, riso e cereali"
+      },
+      "en": {
+        "name": "Pasta, riso e cereali"
+      },
+      "es": {
+        "name": "Pasta, riso e cereali"
+      },
+      "fr": {
+        "name": "Pasta, riso e cereali"
+      }
+    }
+  },
+  {
+    "code": "1.1.1",
+    "name": "Pasta",
+    "tag": "pasta_1_1_1",
+    "parent_tag": "pasta_riso_e_cereali_1_1",
+    "translations": {
+      "it": {
+        "name": "Pasta"
+      },
+      "en": {
+        "name": "Pasta"
+      },
+      "es": {
+        "name": "Pasta"
+      },
+      "fr": {
+        "name": "Pasta"
+      }
+    }
+  },
+  {
+    "code": "1.1.1.1",
+    "name": "Secca",
+    "tag": "secca_1_1_1_1",
+    "parent_tag": "pasta_1_1_1",
+    "translations": {
+      "it": {
+        "name": "Secca"
+      },
+      "en": {
+        "name": "Secca"
+      },
+      "es": {
+        "name": "Secca"
+      },
+      "fr": {
+        "name": "Secca"
+      }
+    }
+  },
+  {
+    "code": "1.1.1.1.1",
+    "name": "Lunga",
+    "tag": "lunga_1_1_1_1_1",
+    "parent_tag": "secca_1_1_1_1",
+    "translations": {
+      "it": {
+        "name": "Lunga"
+      },
+      "en": {
+        "name": "Lunga"
+      },
+      "es": {
+        "name": "Lunga"
+      },
+      "fr": {
+        "name": "Lunga"
+      }
+    }
+  },
+  {
+    "code": "1.1.1.1.2",
+    "name": "Corta",
+    "tag": "corta_1_1_1_1_2",
+    "parent_tag": "secca_1_1_1_1",
+    "translations": {
+      "it": {
+        "name": "Corta"
+      },
+      "en": {
+        "name": "Corta"
+      },
+      "es": {
+        "name": "Corta"
+      },
+      "fr": {
+        "name": "Corta"
+      }
+    }
+  },
+  {
+    "code": "1.1.1.2",
+    "name": "Fresca",
+    "tag": "fresca_1_1_1_2",
+    "parent_tag": "pasta_1_1_1",
+    "translations": {
+      "it": {
+        "name": "Fresca"
+      },
+      "en": {
+        "name": "Fresca"
+      },
+      "es": {
+        "name": "Fresca"
+      },
+      "fr": {
+        "name": "Fresca"
+      }
+    }
+  },
+  {
+    "code": "1.1.1.2.1",
+    "name": "Ripiena",
+    "tag": "ripiena_1_1_1_2_1",
+    "parent_tag": "fresca_1_1_1_2",
+    "translations": {
+      "it": {
+        "name": "Ripiena"
+      },
+      "en": {
+        "name": "Ripiena"
+      },
+      "es": {
+        "name": "Ripiena"
+      },
+      "fr": {
+        "name": "Ripiena"
+      }
+    }
+  },
+  {
+    "code": "1.1.1.2.2",
+    "name": "Non ripiena",
+    "tag": "non_ripiena_1_1_1_2_2",
+    "parent_tag": "fresca_1_1_1_2",
+    "translations": {
+      "it": {
+        "name": "Non ripiena"
+      },
+      "en": {
+        "name": "Non ripiena"
+      },
+      "es": {
+        "name": "Non ripiena"
+      },
+      "fr": {
+        "name": "Non ripiena"
+      }
+    }
+  },
+  {
+    "code": "1.1.2",
+    "name": "Riso",
+    "tag": "riso_1_1_2",
+    "parent_tag": "pasta_riso_e_cereali_1_1",
+    "translations": {
+      "it": {
+        "name": "Riso"
+      },
+      "en": {
+        "name": "Riso"
+      },
+      "es": {
+        "name": "Riso"
+      },
+      "fr": {
+        "name": "Riso"
+      }
+    }
+  },
+  {
+    "code": "1.1.2.1",
+    "name": "Arborio",
+    "tag": "arborio_1_1_2_1",
+    "parent_tag": "riso_1_1_2",
+    "translations": {
+      "it": {
+        "name": "Arborio"
+      },
+      "en": {
+        "name": "Arborio"
+      },
+      "es": {
+        "name": "Arborio"
+      },
+      "fr": {
+        "name": "Arborio"
+      }
+    }
+  },
+  {
+    "code": "1.1.2.2",
+    "name": "Basmati",
+    "tag": "basmati_1_1_2_2",
+    "parent_tag": "riso_1_1_2",
+    "translations": {
+      "it": {
+        "name": "Basmati"
+      },
+      "en": {
+        "name": "Basmati"
+      },
+      "es": {
+        "name": "Basmati"
+      },
+      "fr": {
+        "name": "Basmati"
+      }
+    }
+  },
+  {
+    "code": "1.1.2.3",
+    "name": "Integrale",
+    "tag": "integrale_1_1_2_3",
+    "parent_tag": "riso_1_1_2",
+    "translations": {
+      "it": {
+        "name": "Integrale"
+      },
+      "en": {
+        "name": "Integrale"
+      },
+      "es": {
+        "name": "Integrale"
+      },
+      "fr": {
+        "name": "Integrale"
+      }
+    }
+  },
+  {
+    "code": "1.1.3",
+    "name": "Cereali da colazione",
+    "tag": "cereali_da_colazione_1_1_3",
+    "parent_tag": "pasta_riso_e_cereali_1_1",
+    "translations": {
+      "it": {
+        "name": "Cereali da colazione"
+      },
+      "en": {
+        "name": "Cereali da colazione"
+      },
+      "es": {
+        "name": "Cereali da colazione"
+      },
+      "fr": {
+        "name": "Cereali da colazione"
+      }
+    }
+  },
+  {
+    "code": "1.1.3.1",
+    "name": "Integrali",
+    "tag": "integrali_1_1_3_1",
+    "parent_tag": "cereali_da_colazione_1_1_3",
+    "translations": {
+      "it": {
+        "name": "Integrali"
+      },
+      "en": {
+        "name": "Integrali"
+      },
+      "es": {
+        "name": "Integrali"
+      },
+      "fr": {
+        "name": "Integrali"
+      }
+    }
+  },
+  {
+    "code": "1.1.3.2",
+    "name": "Al cioccolato",
+    "tag": "al_cioccolato_1_1_3_2",
+    "parent_tag": "cereali_da_colazione_1_1_3",
+    "translations": {
+      "it": {
+        "name": "Al cioccolato"
+      },
+      "en": {
+        "name": "Al cioccolato"
+      },
+      "es": {
+        "name": "Al cioccolato"
+      },
+      "fr": {
+        "name": "Al cioccolato"
+      }
+    }
+  },
+  {
+    "code": "1.1.3.3",
+    "name": "Senza zucchero",
+    "tag": "senza_zucchero_1_1_3_3",
+    "parent_tag": "cereali_da_colazione_1_1_3",
+    "translations": {
+      "it": {
+        "name": "Senza zucchero"
+      },
+      "en": {
+        "name": "Senza zucchero"
+      },
+      "es": {
+        "name": "Senza zucchero"
+      },
+      "fr": {
+        "name": "Senza zucchero"
+      }
+    }
+  },
+  {
+    "code": "1.1.4",
+    "name": "Altri cereali",
+    "tag": "altri_cereali_1_1_4",
+    "parent_tag": "pasta_riso_e_cereali_1_1",
+    "translations": {
+      "it": {
+        "name": "Altri cereali"
+      },
+      "en": {
+        "name": "Altri cereali"
+      },
+      "es": {
+        "name": "Altri cereali"
+      },
+      "fr": {
+        "name": "Altri cereali"
+      }
+    }
+  },
+  {
+    "code": "1.1.4.1",
+    "name": "Quinoa",
+    "tag": "quinoa_1_1_4_1",
+    "parent_tag": "altri_cereali_1_1_4",
+    "translations": {
+      "it": {
+        "name": "Quinoa"
+      },
+      "en": {
+        "name": "Quinoa"
+      },
+      "es": {
+        "name": "Quinoa"
+      },
+      "fr": {
+        "name": "Quinoa"
+      }
+    }
+  },
+  {
+    "code": "1.1.4.2",
+    "name": "Couscous",
+    "tag": "couscous_1_1_4_2",
+    "parent_tag": "altri_cereali_1_1_4",
+    "translations": {
+      "it": {
+        "name": "Couscous"
+      },
+      "en": {
+        "name": "Couscous"
+      },
+      "es": {
+        "name": "Couscous"
+      },
+      "fr": {
+        "name": "Couscous"
+      }
+    }
+  },
+  {
+    "code": "1.1.4.3",
+    "name": "Bulgur",
+    "tag": "bulgur_1_1_4_3",
+    "parent_tag": "altri_cereali_1_1_4",
+    "translations": {
+      "it": {
+        "name": "Bulgur"
+      },
+      "en": {
+        "name": "Bulgur"
+      },
+      "es": {
+        "name": "Bulgur"
+      },
+      "fr": {
+        "name": "Bulgur"
+      }
+    }
+  },
+  {
+    "code": "1.2",
+    "name": "Prodotti da forno",
+    "tag": "prodotti_da_forno_1_2",
+    "parent_tag": "alimentari_1",
+    "translations": {
+      "it": {
+        "name": "Prodotti da forno"
+      },
+      "en": {
+        "name": "Prodotti da forno"
+      },
+      "es": {
+        "name": "Prodotti da forno"
+      },
+      "fr": {
+        "name": "Prodotti da forno"
+      }
+    }
+  },
+  {
+    "code": "1.2.1",
+    "name": "Pane",
+    "tag": "pane_1_2_1",
+    "parent_tag": "prodotti_da_forno_1_2",
+    "translations": {
+      "it": {
+        "name": "Pane"
+      },
+      "en": {
+        "name": "Pane"
+      },
+      "es": {
+        "name": "Pane"
+      },
+      "fr": {
+        "name": "Pane"
+      }
+    }
+  },
+  {
+    "code": "1.2.1.1",
+    "name": "Fresco",
+    "tag": "fresco_1_2_1_1",
+    "parent_tag": "pane_1_2_1",
+    "translations": {
+      "it": {
+        "name": "Fresco"
+      },
+      "en": {
+        "name": "Fresco"
+      },
+      "es": {
+        "name": "Fresco"
+      },
+      "fr": {
+        "name": "Fresco"
+      }
+    }
+  },
+  {
+    "code": "1.2.1.2",
+    "name": "Confezionato",
+    "tag": "confezionato_1_2_1_2",
+    "parent_tag": "pane_1_2_1",
+    "translations": {
+      "it": {
+        "name": "Confezionato"
+      },
+      "en": {
+        "name": "Confezionato"
+      },
+      "es": {
+        "name": "Confezionato"
+      },
+      "fr": {
+        "name": "Confezionato"
+      }
+    }
+  },
+  {
+    "code": "1.2.1.2.1",
+    "name": "Bianco",
+    "tag": "bianco_1_2_1_2_1",
+    "parent_tag": "confezionato_1_2_1_2",
+    "translations": {
+      "it": {
+        "name": "Bianco"
+      },
+      "en": {
+        "name": "Bianco"
+      },
+      "es": {
+        "name": "Bianco"
+      },
+      "fr": {
+        "name": "Bianco"
+      }
+    }
+  },
+  {
+    "code": "1.2.1.2.2",
+    "name": "Integrale",
+    "tag": "integrale_1_2_1_2_2",
+    "parent_tag": "confezionato_1_2_1_2",
+    "translations": {
+      "it": {
+        "name": "Integrale"
+      },
+      "en": {
+        "name": "Integrale"
+      },
+      "es": {
+        "name": "Integrale"
+      },
+      "fr": {
+        "name": "Integrale"
+      }
+    }
+  },
+  {
+    "code": "1.2.2",
+    "name": "Grissini e cracker",
+    "tag": "grissini_e_cracker_1_2_2",
+    "parent_tag": "prodotti_da_forno_1_2",
+    "translations": {
+      "it": {
+        "name": "Grissini e cracker"
+      },
+      "en": {
+        "name": "Grissini e cracker"
+      },
+      "es": {
+        "name": "Grissini e cracker"
+      },
+      "fr": {
+        "name": "Grissini e cracker"
+      }
+    }
+  },
+  {
+    "code": "1.2.3",
+    "name": "Fette biscottate",
+    "tag": "fette_biscottate_1_2_3",
+    "parent_tag": "prodotti_da_forno_1_2",
+    "translations": {
+      "it": {
+        "name": "Fette biscottate"
+      },
+      "en": {
+        "name": "Fette biscottate"
+      },
+      "es": {
+        "name": "Fette biscottate"
+      },
+      "fr": {
+        "name": "Fette biscottate"
+      }
+    }
+  },
+  {
+    "code": "1.2.4",
+    "name": "Biscotti",
+    "tag": "biscotti_1_2_4",
+    "parent_tag": "prodotti_da_forno_1_2",
+    "translations": {
+      "it": {
+        "name": "Biscotti"
+      },
+      "en": {
+        "name": "Biscotti"
+      },
+      "es": {
+        "name": "Biscotti"
+      },
+      "fr": {
+        "name": "Biscotti"
+      }
+    }
+  },
+  {
+    "code": "1.2.4.1",
+    "name": "Frollini",
+    "tag": "frollini_1_2_4_1",
+    "parent_tag": "biscotti_1_2_4",
+    "translations": {
+      "it": {
+        "name": "Frollini"
+      },
+      "en": {
+        "name": "Frollini"
+      },
+      "es": {
+        "name": "Frollini"
+      },
+      "fr": {
+        "name": "Frollini"
+      }
+    }
+  },
+  {
+    "code": "1.2.4.2",
+    "name": "Farciti",
+    "tag": "farciti_1_2_4_2",
+    "parent_tag": "biscotti_1_2_4",
+    "translations": {
+      "it": {
+        "name": "Farciti"
+      },
+      "en": {
+        "name": "Farciti"
+      },
+      "es": {
+        "name": "Farciti"
+      },
+      "fr": {
+        "name": "Farciti"
+      }
+    }
+  },
+  {
+    "code": "1.2.4.3",
+    "name": "Integrali",
+    "tag": "integrali_1_2_4_3",
+    "parent_tag": "biscotti_1_2_4",
+    "translations": {
+      "it": {
+        "name": "Integrali"
+      },
+      "en": {
+        "name": "Integrali"
+      },
+      "es": {
+        "name": "Integrali"
+      },
+      "fr": {
+        "name": "Integrali"
+      }
+    }
+  },
+  {
+    "code": "1.2.5",
+    "name": "Merendine",
+    "tag": "merendine_1_2_5",
+    "parent_tag": "prodotti_da_forno_1_2",
+    "translations": {
+      "it": {
+        "name": "Merendine"
+      },
+      "en": {
+        "name": "Merendine"
+      },
+      "es": {
+        "name": "Merendine"
+      },
+      "fr": {
+        "name": "Merendine"
+      }
+    }
+  },
+  {
+    "code": "1.2.5.1",
+    "name": "Con farcitura",
+    "tag": "con_farcitura_1_2_5_1",
+    "parent_tag": "merendine_1_2_5",
+    "translations": {
+      "it": {
+        "name": "Con farcitura"
+      },
+      "en": {
+        "name": "Con farcitura"
+      },
+      "es": {
+        "name": "Con farcitura"
+      },
+      "fr": {
+        "name": "Con farcitura"
+      }
+    }
+  },
+  {
+    "code": "1.2.5.2",
+    "name": "Senza farcitura",
+    "tag": "senza_farcitura_1_2_5_2",
+    "parent_tag": "merendine_1_2_5",
+    "translations": {
+      "it": {
+        "name": "Senza farcitura"
+      },
+      "en": {
+        "name": "Senza farcitura"
+      },
+      "es": {
+        "name": "Senza farcitura"
+      },
+      "fr": {
+        "name": "Senza farcitura"
+      }
+    }
+  },
+  {
+    "code": "1.3",
+    "name": "Latticini e uova",
+    "tag": "latticini_e_uova_1_3",
+    "parent_tag": "alimentari_1",
+    "translations": {
+      "it": {
+        "name": "Latticini e uova"
+      },
+      "en": {
+        "name": "Latticini e uova"
+      },
+      "es": {
+        "name": "Latticini e uova"
+      },
+      "fr": {
+        "name": "Latticini e uova"
+      }
+    }
+  },
+  {
+    "code": "1.3.1",
+    "name": "Latte",
+    "tag": "latte_1_3_1",
+    "parent_tag": "latticini_e_uova_1_3",
+    "translations": {
+      "it": {
+        "name": "Latte"
+      },
+      "en": {
+        "name": "Latte"
+      },
+      "es": {
+        "name": "Latte"
+      },
+      "fr": {
+        "name": "Latte"
+      }
+    }
+  },
+  {
+    "code": "1.3.1.1",
+    "name": "Vaccino",
+    "tag": "vaccino_1_3_1_1",
+    "parent_tag": "latte_1_3_1",
+    "translations": {
+      "it": {
+        "name": "Vaccino"
+      },
+      "en": {
+        "name": "Vaccino"
+      },
+      "es": {
+        "name": "Vaccino"
+      },
+      "fr": {
+        "name": "Vaccino"
+      }
+    }
+  },
+  {
+    "code": "1.3.1.1.1",
+    "name": "Intero",
+    "tag": "intero_1_3_1_1_1",
+    "parent_tag": "vaccino_1_3_1_1",
+    "translations": {
+      "it": {
+        "name": "Intero"
+      },
+      "en": {
+        "name": "Intero"
+      },
+      "es": {
+        "name": "Intero"
+      },
+      "fr": {
+        "name": "Intero"
+      }
+    }
+  },
+  {
+    "code": "1.3.1.1.2",
+    "name": "Parzialmente scremato",
+    "tag": "parzialmente_scremato_1_3_1_1_2",
+    "parent_tag": "vaccino_1_3_1_1",
+    "translations": {
+      "it": {
+        "name": "Parzialmente scremato"
+      },
+      "en": {
+        "name": "Parzialmente scremato"
+      },
+      "es": {
+        "name": "Parzialmente scremato"
+      },
+      "fr": {
+        "name": "Parzialmente scremato"
+      }
+    }
+  },
+  {
+    "code": "1.3.1.2",
+    "name": "Vegetale",
+    "tag": "vegetale_1_3_1_2",
+    "parent_tag": "latte_1_3_1",
+    "translations": {
+      "it": {
+        "name": "Vegetale"
+      },
+      "en": {
+        "name": "Vegetale"
+      },
+      "es": {
+        "name": "Vegetale"
+      },
+      "fr": {
+        "name": "Vegetale"
+      }
+    }
+  },
+  {
+    "code": "1.3.1.2.1",
+    "name": "Soia",
+    "tag": "soia_1_3_1_2_1",
+    "parent_tag": "vegetale_1_3_1_2",
+    "translations": {
+      "it": {
+        "name": "Soia"
+      },
+      "en": {
+        "name": "Soia"
+      },
+      "es": {
+        "name": "Soia"
+      },
+      "fr": {
+        "name": "Soia"
+      }
+    }
+  },
+  {
+    "code": "1.3.1.2.2",
+    "name": "Avena",
+    "tag": "avena_1_3_1_2_2",
+    "parent_tag": "vegetale_1_3_1_2",
+    "translations": {
+      "it": {
+        "name": "Avena"
+      },
+      "en": {
+        "name": "Avena"
+      },
+      "es": {
+        "name": "Avena"
+      },
+      "fr": {
+        "name": "Avena"
+      }
+    }
+  },
+  {
+    "code": "1.3.1.2.3",
+    "name": "Mandorla",
+    "tag": "mandorla_1_3_1_2_3",
+    "parent_tag": "vegetale_1_3_1_2",
+    "translations": {
+      "it": {
+        "name": "Mandorla"
+      },
+      "en": {
+        "name": "Mandorla"
+      },
+      "es": {
+        "name": "Mandorla"
+      },
+      "fr": {
+        "name": "Mandorla"
+      }
+    }
+  },
+  {
+    "code": "1.3.2",
+    "name": "Yogurt",
+    "tag": "yogurt_1_3_2",
+    "parent_tag": "latticini_e_uova_1_3",
+    "translations": {
+      "it": {
+        "name": "Yogurt"
+      },
+      "en": {
+        "name": "Yogurt"
+      },
+      "es": {
+        "name": "Yogurt"
+      },
+      "fr": {
+        "name": "Yogurt"
+      }
+    }
+  },
+  {
+    "code": "1.3.2.1",
+    "name": "Magro",
+    "tag": "magro_1_3_2_1",
+    "parent_tag": "yogurt_1_3_2",
+    "translations": {
+      "it": {
+        "name": "Magro"
+      },
+      "en": {
+        "name": "Magro"
+      },
+      "es": {
+        "name": "Magro"
+      },
+      "fr": {
+        "name": "Magro"
+      }
+    }
+  },
+  {
+    "code": "1.3.2.2",
+    "name": "Greco",
+    "tag": "greco_1_3_2_2",
+    "parent_tag": "yogurt_1_3_2",
+    "translations": {
+      "it": {
+        "name": "Greco"
+      },
+      "en": {
+        "name": "Greco"
+      },
+      "es": {
+        "name": "Greco"
+      },
+      "fr": {
+        "name": "Greco"
+      }
+    }
+  },
+  {
+    "code": "1.3.2.3",
+    "name": "Senza zucchero",
+    "tag": "senza_zucchero_1_3_2_3",
+    "parent_tag": "yogurt_1_3_2",
+    "translations": {
+      "it": {
+        "name": "Senza zucchero"
+      },
+      "en": {
+        "name": "Senza zucchero"
+      },
+      "es": {
+        "name": "Senza zucchero"
+      },
+      "fr": {
+        "name": "Senza zucchero"
+      }
+    }
+  },
+  {
+    "code": "1.3.3",
+    "name": "Formaggi",
+    "tag": "formaggi_1_3_3",
+    "parent_tag": "latticini_e_uova_1_3",
+    "translations": {
+      "it": {
+        "name": "Formaggi"
+      },
+      "en": {
+        "name": "Formaggi"
+      },
+      "es": {
+        "name": "Formaggi"
+      },
+      "fr": {
+        "name": "Formaggi"
+      }
+    }
+  },
+  {
+    "code": "1.3.3.1",
+    "name": "Freschi",
+    "tag": "freschi_1_3_3_1",
+    "parent_tag": "formaggi_1_3_3",
+    "translations": {
+      "it": {
+        "name": "Freschi"
+      },
+      "en": {
+        "name": "Freschi"
+      },
+      "es": {
+        "name": "Freschi"
+      },
+      "fr": {
+        "name": "Freschi"
+      }
+    }
+  },
+  {
+    "code": "1.3.3.2",
+    "name": "Stagionati",
+    "tag": "stagionati_1_3_3_2",
+    "parent_tag": "formaggi_1_3_3",
+    "translations": {
+      "it": {
+        "name": "Stagionati"
+      },
+      "en": {
+        "name": "Stagionati"
+      },
+      "es": {
+        "name": "Stagionati"
+      },
+      "fr": {
+        "name": "Stagionati"
+      }
+    }
+  },
+  {
+    "code": "1.3.3.3",
+    "name": "Spalmabili",
+    "tag": "spalmabili_1_3_3_3",
+    "parent_tag": "formaggi_1_3_3",
+    "translations": {
+      "it": {
+        "name": "Spalmabili"
+      },
+      "en": {
+        "name": "Spalmabili"
+      },
+      "es": {
+        "name": "Spalmabili"
+      },
+      "fr": {
+        "name": "Spalmabili"
+      }
+    }
+  },
+  {
+    "code": "1.3.4",
+    "name": "Uova",
+    "tag": "uova_1_3_4",
+    "parent_tag": "latticini_e_uova_1_3",
+    "translations": {
+      "it": {
+        "name": "Uova"
+      },
+      "en": {
+        "name": "Uova"
+      },
+      "es": {
+        "name": "Uova"
+      },
+      "fr": {
+        "name": "Uova"
+      }
+    }
+  },
+  {
+    "code": "1.4",
+    "name": "Carne e pesce",
+    "tag": "carne_e_pesce_1_4",
+    "parent_tag": "alimentari_1",
+    "translations": {
+      "it": {
+        "name": "Carne e pesce"
+      },
+      "en": {
+        "name": "Carne e pesce"
+      },
+      "es": {
+        "name": "Carne e pesce"
+      },
+      "fr": {
+        "name": "Carne e pesce"
+      }
+    }
+  },
+  {
+    "code": "1.4.1",
+    "name": "Carne",
+    "tag": "carne_1_4_1",
+    "parent_tag": "carne_e_pesce_1_4",
+    "translations": {
+      "it": {
+        "name": "Carne"
+      },
+      "en": {
+        "name": "Carne"
+      },
+      "es": {
+        "name": "Carne"
+      },
+      "fr": {
+        "name": "Carne"
+      }
+    }
+  },
+  {
+    "code": "1.4.1.1",
+    "name": "Rossa",
+    "tag": "rossa_1_4_1_1",
+    "parent_tag": "carne_1_4_1",
+    "translations": {
+      "it": {
+        "name": "Rossa"
+      },
+      "en": {
+        "name": "Rossa"
+      },
+      "es": {
+        "name": "Rossa"
+      },
+      "fr": {
+        "name": "Rossa"
+      }
+    }
+  },
+  {
+    "code": "1.4.1.1.1",
+    "name": "Bovino",
+    "tag": "bovino_1_4_1_1_1",
+    "parent_tag": "rossa_1_4_1_1",
+    "translations": {
+      "it": {
+        "name": "Bovino"
+      },
+      "en": {
+        "name": "Bovino"
+      },
+      "es": {
+        "name": "Bovino"
+      },
+      "fr": {
+        "name": "Bovino"
+      }
+    }
+  },
+  {
+    "code": "1.4.1.1.2",
+    "name": "Suino",
+    "tag": "suino_1_4_1_1_2",
+    "parent_tag": "rossa_1_4_1_1",
+    "translations": {
+      "it": {
+        "name": "Suino"
+      },
+      "en": {
+        "name": "Suino"
+      },
+      "es": {
+        "name": "Suino"
+      },
+      "fr": {
+        "name": "Suino"
+      }
+    }
+  },
+  {
+    "code": "1.4.1.2",
+    "name": "Bianca",
+    "tag": "bianca_1_4_1_2",
+    "parent_tag": "carne_1_4_1",
+    "translations": {
+      "it": {
+        "name": "Bianca"
+      },
+      "en": {
+        "name": "Bianca"
+      },
+      "es": {
+        "name": "Bianca"
+      },
+      "fr": {
+        "name": "Bianca"
+      }
+    }
+  },
+  {
+    "code": "1.4.1.2.1",
+    "name": "Pollo",
+    "tag": "pollo_1_4_1_2_1",
+    "parent_tag": "bianca_1_4_1_2",
+    "translations": {
+      "it": {
+        "name": "Pollo"
+      },
+      "en": {
+        "name": "Pollo"
+      },
+      "es": {
+        "name": "Pollo"
+      },
+      "fr": {
+        "name": "Pollo"
+      }
+    }
+  },
+  {
+    "code": "1.4.1.2.2",
+    "name": "Tacchino",
+    "tag": "tacchino_1_4_1_2_2",
+    "parent_tag": "bianca_1_4_1_2",
+    "translations": {
+      "it": {
+        "name": "Tacchino"
+      },
+      "en": {
+        "name": "Tacchino"
+      },
+      "es": {
+        "name": "Tacchino"
+      },
+      "fr": {
+        "name": "Tacchino"
+      }
+    }
+  },
+  {
+    "code": "1.4.2",
+    "name": "Salumi",
+    "tag": "salumi_1_4_2",
+    "parent_tag": "carne_e_pesce_1_4",
+    "translations": {
+      "it": {
+        "name": "Salumi"
+      },
+      "en": {
+        "name": "Salumi"
+      },
+      "es": {
+        "name": "Salumi"
+      },
+      "fr": {
+        "name": "Salumi"
+      }
+    }
+  },
+  {
+    "code": "1.4.2.1",
+    "name": "Affettati",
+    "tag": "affettati_1_4_2_1",
+    "parent_tag": "salumi_1_4_2",
+    "translations": {
+      "it": {
+        "name": "Affettati"
+      },
+      "en": {
+        "name": "Affettati"
+      },
+      "es": {
+        "name": "Affettati"
+      },
+      "fr": {
+        "name": "Affettati"
+      }
+    }
+  },
+  {
+    "code": "1.4.2.2",
+    "name": "Interi",
+    "tag": "interi_1_4_2_2",
+    "parent_tag": "salumi_1_4_2",
+    "translations": {
+      "it": {
+        "name": "Interi"
+      },
+      "en": {
+        "name": "Interi"
+      },
+      "es": {
+        "name": "Interi"
+      },
+      "fr": {
+        "name": "Interi"
+      }
+    }
+  },
+  {
+    "code": "1.4.3",
+    "name": "Pesce",
+    "tag": "pesce_1_4_3",
+    "parent_tag": "carne_e_pesce_1_4",
+    "translations": {
+      "it": {
+        "name": "Pesce"
+      },
+      "en": {
+        "name": "Pesce"
+      },
+      "es": {
+        "name": "Pesce"
+      },
+      "fr": {
+        "name": "Pesce"
+      }
+    }
+  },
+  {
+    "code": "1.4.3.1",
+    "name": "Fresco",
+    "tag": "fresco_1_4_3_1",
+    "parent_tag": "pesce_1_4_3",
+    "translations": {
+      "it": {
+        "name": "Fresco"
+      },
+      "en": {
+        "name": "Fresco"
+      },
+      "es": {
+        "name": "Fresco"
+      },
+      "fr": {
+        "name": "Fresco"
+      }
+    }
+  },
+  {
+    "code": "1.4.3.2",
+    "name": "Surgelato",
+    "tag": "surgelato_1_4_3_2",
+    "parent_tag": "pesce_1_4_3",
+    "translations": {
+      "it": {
+        "name": "Surgelato"
+      },
+      "en": {
+        "name": "Surgelato"
+      },
+      "es": {
+        "name": "Surgelato"
+      },
+      "fr": {
+        "name": "Surgelato"
+      }
+    }
+  },
+  {
+    "code": "1.4.3.3",
+    "name": "Conserve",
+    "tag": "conserve_1_4_3_3",
+    "parent_tag": "pesce_1_4_3",
+    "translations": {
+      "it": {
+        "name": "Conserve"
+      },
+      "en": {
+        "name": "Conserve"
+      },
+      "es": {
+        "name": "Conserve"
+      },
+      "fr": {
+        "name": "Conserve"
+      }
+    }
+  },
+  {
+    "code": "1.5",
+    "name": "Conserve e dispensa",
+    "tag": "conserve_e_dispensa_1_5",
+    "parent_tag": "alimentari_1",
+    "translations": {
+      "it": {
+        "name": "Conserve e dispensa"
+      },
+      "en": {
+        "name": "Conserve e dispensa"
+      },
+      "es": {
+        "name": "Conserve e dispensa"
+      },
+      "fr": {
+        "name": "Conserve e dispensa"
+      }
+    }
+  },
+  {
+    "code": "1.5.1",
+    "name": "Legumi",
+    "tag": "legumi_1_5_1",
+    "parent_tag": "conserve_e_dispensa_1_5",
+    "translations": {
+      "it": {
+        "name": "Legumi"
+      },
+      "en": {
+        "name": "Legumi"
+      },
+      "es": {
+        "name": "Legumi"
+      },
+      "fr": {
+        "name": "Legumi"
+      }
+    }
+  },
+  {
+    "code": "1.5.1.1",
+    "name": "Lattina",
+    "tag": "lattina_1_5_1_1",
+    "parent_tag": "legumi_1_5_1",
+    "translations": {
+      "it": {
+        "name": "Lattina"
+      },
+      "en": {
+        "name": "Lattina"
+      },
+      "es": {
+        "name": "Lattina"
+      },
+      "fr": {
+        "name": "Lattina"
+      }
+    }
+  },
+  {
+    "code": "1.5.1.2",
+    "name": "Secchi",
+    "tag": "secchi_1_5_1_2",
+    "parent_tag": "legumi_1_5_1",
+    "translations": {
+      "it": {
+        "name": "Secchi"
+      },
+      "en": {
+        "name": "Secchi"
+      },
+      "es": {
+        "name": "Secchi"
+      },
+      "fr": {
+        "name": "Secchi"
+      }
+    }
+  },
+  {
+    "code": "1.5.2",
+    "name": "Passata e sughi",
+    "tag": "passata_e_sughi_1_5_2",
+    "parent_tag": "conserve_e_dispensa_1_5",
+    "translations": {
+      "it": {
+        "name": "Passata e sughi"
+      },
+      "en": {
+        "name": "Passata e sughi"
+      },
+      "es": {
+        "name": "Passata e sughi"
+      },
+      "fr": {
+        "name": "Passata e sughi"
+      }
+    }
+  },
+  {
+    "code": "1.5.3",
+    "name": "Tonno e carne in scatola",
+    "tag": "tonno_e_carne_in_scatola_1_5_3",
+    "parent_tag": "conserve_e_dispensa_1_5",
+    "translations": {
+      "it": {
+        "name": "Tonno e carne in scatola"
+      },
+      "en": {
+        "name": "Tonno e carne in scatola"
+      },
+      "es": {
+        "name": "Tonno e carne in scatola"
+      },
+      "fr": {
+        "name": "Tonno e carne in scatola"
+      }
+    }
+  },
+  {
+    "code": "1.6",
+    "name": "Snack e dolci",
+    "tag": "snack_e_dolci_1_6",
+    "parent_tag": "alimentari_1",
+    "translations": {
+      "it": {
+        "name": "Snack e dolci"
+      },
+      "en": {
+        "name": "Snack e dolci"
+      },
+      "es": {
+        "name": "Snack e dolci"
+      },
+      "fr": {
+        "name": "Snack e dolci"
+      }
+    }
+  },
+  {
+    "code": "1.6.1",
+    "name": "Cioccolato",
+    "tag": "cioccolato_1_6_1",
+    "parent_tag": "snack_e_dolci_1_6",
+    "translations": {
+      "it": {
+        "name": "Cioccolato"
+      },
+      "en": {
+        "name": "Cioccolato"
+      },
+      "es": {
+        "name": "Cioccolato"
+      },
+      "fr": {
+        "name": "Cioccolato"
+      }
+    }
+  },
+  {
+    "code": "1.6.1.1",
+    "name": "Fondente",
+    "tag": "fondente_1_6_1_1",
+    "parent_tag": "cioccolato_1_6_1",
+    "translations": {
+      "it": {
+        "name": "Fondente"
+      },
+      "en": {
+        "name": "Fondente"
+      },
+      "es": {
+        "name": "Fondente"
+      },
+      "fr": {
+        "name": "Fondente"
+      }
+    }
+  },
+  {
+    "code": "1.6.1.2",
+    "name": "Al latte",
+    "tag": "al_latte_1_6_1_2",
+    "parent_tag": "cioccolato_1_6_1",
+    "translations": {
+      "it": {
+        "name": "Al latte"
+      },
+      "en": {
+        "name": "Al latte"
+      },
+      "es": {
+        "name": "Al latte"
+      },
+      "fr": {
+        "name": "Al latte"
+      }
+    }
+  },
+  {
+    "code": "1.6.1.3",
+    "name": "Bianco",
+    "tag": "bianco_1_6_1_3",
+    "parent_tag": "cioccolato_1_6_1",
+    "translations": {
+      "it": {
+        "name": "Bianco"
+      },
+      "en": {
+        "name": "Bianco"
+      },
+      "es": {
+        "name": "Bianco"
+      },
+      "fr": {
+        "name": "Bianco"
+      }
+    }
+  },
+  {
+    "code": "1.6.2",
+    "name": "Caramelle",
+    "tag": "caramelle_1_6_2",
+    "parent_tag": "snack_e_dolci_1_6",
+    "translations": {
+      "it": {
+        "name": "Caramelle"
+      },
+      "en": {
+        "name": "Caramelle"
+      },
+      "es": {
+        "name": "Caramelle"
+      },
+      "fr": {
+        "name": "Caramelle"
+      }
+    }
+  },
+  {
+    "code": "1.6.2.1",
+    "name": "Gommose",
+    "tag": "gommose_1_6_2_1",
+    "parent_tag": "caramelle_1_6_2",
+    "translations": {
+      "it": {
+        "name": "Gommose"
+      },
+      "en": {
+        "name": "Gommose"
+      },
+      "es": {
+        "name": "Gommose"
+      },
+      "fr": {
+        "name": "Gommose"
+      }
+    }
+  },
+  {
+    "code": "1.6.2.2",
+    "name": "Dure",
+    "tag": "dure_1_6_2_2",
+    "parent_tag": "caramelle_1_6_2",
+    "translations": {
+      "it": {
+        "name": "Dure"
+      },
+      "en": {
+        "name": "Dure"
+      },
+      "es": {
+        "name": "Dure"
+      },
+      "fr": {
+        "name": "Dure"
+      }
+    }
+  },
+  {
+    "code": "1.6.3",
+    "name": "Barrette",
+    "tag": "barrette_1_6_3",
+    "parent_tag": "snack_e_dolci_1_6",
+    "translations": {
+      "it": {
+        "name": "Barrette"
+      },
+      "en": {
+        "name": "Barrette"
+      },
+      "es": {
+        "name": "Barrette"
+      },
+      "fr": {
+        "name": "Barrette"
+      }
+    }
+  },
+  {
+    "code": "1.6.4",
+    "name": "Snack salati",
+    "tag": "snack_salati_1_6_4",
+    "parent_tag": "snack_e_dolci_1_6",
+    "translations": {
+      "it": {
+        "name": "Snack salati"
+      },
+      "en": {
+        "name": "Snack salati"
+      },
+      "es": {
+        "name": "Snack salati"
+      },
+      "fr": {
+        "name": "Snack salati"
+      }
+    }
+  },
+  {
+    "code": "1.6.4.1",
+    "name": "Patatine",
+    "tag": "patatine_1_6_4_1",
+    "parent_tag": "snack_salati_1_6_4",
+    "translations": {
+      "it": {
+        "name": "Patatine"
+      },
+      "en": {
+        "name": "Patatine"
+      },
+      "es": {
+        "name": "Patatine"
+      },
+      "fr": {
+        "name": "Patatine"
+      }
+    }
+  },
+  {
+    "code": "1.6.4.2",
+    "name": "Popcorn",
+    "tag": "popcorn_1_6_4_2",
+    "parent_tag": "snack_salati_1_6_4",
+    "translations": {
+      "it": {
+        "name": "Popcorn"
+      },
+      "en": {
+        "name": "Popcorn"
+      },
+      "es": {
+        "name": "Popcorn"
+      },
+      "fr": {
+        "name": "Popcorn"
+      }
+    }
+  },
+  {
+    "code": "2",
+    "name": "BEVANDE",
+    "tag": "bevande_2",
+    "parent_tag": null,
+    "translations": {
+      "it": {
+        "name": "BEVANDE"
+      },
+      "en": {
+        "name": "BEVANDE"
+      },
+      "es": {
+        "name": "BEVANDE"
+      },
+      "fr": {
+        "name": "BEVANDE"
+      }
+    }
+  },
+  {
+    "code": "2.1",
+    "name": "Acqua",
+    "tag": "acqua_2_1",
+    "parent_tag": "bevande_2",
+    "translations": {
+      "it": {
+        "name": "Acqua"
+      },
+      "en": {
+        "name": "Acqua"
+      },
+      "es": {
+        "name": "Acqua"
+      },
+      "fr": {
+        "name": "Acqua"
+      }
+    }
+  },
+  {
+    "code": "2.1.1",
+    "name": "Naturale",
+    "tag": "naturale_2_1_1",
+    "parent_tag": "acqua_2_1",
+    "translations": {
+      "it": {
+        "name": "Naturale"
+      },
+      "en": {
+        "name": "Naturale"
+      },
+      "es": {
+        "name": "Naturale"
+      },
+      "fr": {
+        "name": "Naturale"
+      }
+    }
+  },
+  {
+    "code": "2.1.2",
+    "name": "Frizzante",
+    "tag": "frizzante_2_1_2",
+    "parent_tag": "acqua_2_1",
+    "translations": {
+      "it": {
+        "name": "Frizzante"
+      },
+      "en": {
+        "name": "Frizzante"
+      },
+      "es": {
+        "name": "Frizzante"
+      },
+      "fr": {
+        "name": "Frizzante"
+      }
+    }
+  },
+  {
+    "code": "2.1.3",
+    "name": "Arricchita (minerali/vitamine)",
+    "tag": "arricchita_minerali_vitamine_2_1_3",
+    "parent_tag": "acqua_2_1",
+    "translations": {
+      "it": {
+        "name": "Arricchita (minerali/vitamine)"
+      },
+      "en": {
+        "name": "Arricchita (minerali/vitamine)"
+      },
+      "es": {
+        "name": "Arricchita (minerali/vitamine)"
+      },
+      "fr": {
+        "name": "Arricchita (minerali/vitamine)"
+      }
+    }
+  },
+  {
+    "code": "2.2",
+    "name": "Bibite gassate",
+    "tag": "bibite_gassate_2_2",
+    "parent_tag": "bevande_2",
+    "translations": {
+      "it": {
+        "name": "Bibite gassate"
+      },
+      "en": {
+        "name": "Bibite gassate"
+      },
+      "es": {
+        "name": "Bibite gassate"
+      },
+      "fr": {
+        "name": "Bibite gassate"
+      }
+    }
+  },
+  {
+    "code": "2.2.1",
+    "name": "Cola",
+    "tag": "cola_2_2_1",
+    "parent_tag": "bibite_gassate_2_2",
+    "translations": {
+      "it": {
+        "name": "Cola"
+      },
+      "en": {
+        "name": "Cola"
+      },
+      "es": {
+        "name": "Cola"
+      },
+      "fr": {
+        "name": "Cola"
+      }
+    }
+  },
+  {
+    "code": "2.2.2",
+    "name": "Aranciata",
+    "tag": "aranciata_2_2_2",
+    "parent_tag": "bibite_gassate_2_2",
+    "translations": {
+      "it": {
+        "name": "Aranciata"
+      },
+      "en": {
+        "name": "Aranciata"
+      },
+      "es": {
+        "name": "Aranciata"
+      },
+      "fr": {
+        "name": "Aranciata"
+      }
+    }
+  },
+  {
+    "code": "2.2.3",
+    "name": "Gassosa",
+    "tag": "gassosa_2_2_3",
+    "parent_tag": "bibite_gassate_2_2",
+    "translations": {
+      "it": {
+        "name": "Gassosa"
+      },
+      "en": {
+        "name": "Gassosa"
+      },
+      "es": {
+        "name": "Gassosa"
+      },
+      "fr": {
+        "name": "Gassosa"
+      }
+    }
+  },
+  {
+    "code": "2.3",
+    "name": "Succhi e spremute",
+    "tag": "succhi_e_spremute_2_3",
+    "parent_tag": "bevande_2",
+    "translations": {
+      "it": {
+        "name": "Succhi e spremute"
+      },
+      "en": {
+        "name": "Succhi e spremute"
+      },
+      "es": {
+        "name": "Succhi e spremute"
+      },
+      "fr": {
+        "name": "Succhi e spremute"
+      }
+    }
+  },
+  {
+    "code": "2.3.1",
+    "name": "100% Frutta",
+    "tag": "100_frutta_2_3_1",
+    "parent_tag": "succhi_e_spremute_2_3",
+    "translations": {
+      "it": {
+        "name": "100% Frutta"
+      },
+      "en": {
+        "name": "100% Frutta"
+      },
+      "es": {
+        "name": "100% Frutta"
+      },
+      "fr": {
+        "name": "100% Frutta"
+      }
+    }
+  },
+  {
+    "code": "2.3.2",
+    "name": "Nectars",
+    "tag": "nectars_2_3_2",
+    "parent_tag": "succhi_e_spremute_2_3",
+    "translations": {
+      "it": {
+        "name": "Nectars"
+      },
+      "en": {
+        "name": "Nectars"
+      },
+      "es": {
+        "name": "Nectars"
+      },
+      "fr": {
+        "name": "Nectars"
+      }
+    }
+  },
+  {
+    "code": "2.3.3",
+    "name": "Senza zucchero",
+    "tag": "senza_zucchero_2_3_3",
+    "parent_tag": "succhi_e_spremute_2_3",
+    "translations": {
+      "it": {
+        "name": "Senza zucchero"
+      },
+      "en": {
+        "name": "Senza zucchero"
+      },
+      "es": {
+        "name": "Senza zucchero"
+      },
+      "fr": {
+        "name": "Senza zucchero"
+      }
+    }
+  },
+  {
+    "code": "2.4",
+    "name": "Bevande calde",
+    "tag": "bevande_calde_2_4",
+    "parent_tag": "bevande_2",
+    "translations": {
+      "it": {
+        "name": "Bevande calde"
+      },
+      "en": {
+        "name": "Bevande calde"
+      },
+      "es": {
+        "name": "Bevande calde"
+      },
+      "fr": {
+        "name": "Bevande calde"
+      }
+    }
+  },
+  {
+    "code": "2.4.1",
+    "name": "Caffè",
+    "tag": "caffè_2_4_1",
+    "parent_tag": "bevande_calde_2_4",
+    "translations": {
+      "it": {
+        "name": "Caffè"
+      },
+      "en": {
+        "name": "Caffè"
+      },
+      "es": {
+        "name": "Caffè"
+      },
+      "fr": {
+        "name": "Caffè"
+      }
+    }
+  },
+  {
+    "code": "2.4.1.1",
+    "name": "Macinato",
+    "tag": "macinato_2_4_1_1",
+    "parent_tag": "caffè_2_4_1",
+    "translations": {
+      "it": {
+        "name": "Macinato"
+      },
+      "en": {
+        "name": "Macinato"
+      },
+      "es": {
+        "name": "Macinato"
+      },
+      "fr": {
+        "name": "Macinato"
+      }
+    }
+  },
+  {
+    "code": "2.4.1.2",
+    "name": "Capsule",
+    "tag": "capsule_2_4_1_2",
+    "parent_tag": "caffè_2_4_1",
+    "translations": {
+      "it": {
+        "name": "Capsule"
+      },
+      "en": {
+        "name": "Capsule"
+      },
+      "es": {
+        "name": "Capsule"
+      },
+      "fr": {
+        "name": "Capsule"
+      }
+    }
+  },
+  {
+    "code": "2.4.2",
+    "name": "Tè",
+    "tag": "tè_2_4_2",
+    "parent_tag": "bevande_calde_2_4",
+    "translations": {
+      "it": {
+        "name": "Tè"
+      },
+      "en": {
+        "name": "Tè"
+      },
+      "es": {
+        "name": "Tè"
+      },
+      "fr": {
+        "name": "Tè"
+      }
+    }
+  },
+  {
+    "code": "2.4.2.1",
+    "name": "Verde",
+    "tag": "verde_2_4_2_1",
+    "parent_tag": "tè_2_4_2",
+    "translations": {
+      "it": {
+        "name": "Verde"
+      },
+      "en": {
+        "name": "Verde"
+      },
+      "es": {
+        "name": "Verde"
+      },
+      "fr": {
+        "name": "Verde"
+      }
+    }
+  },
+  {
+    "code": "2.4.2.2",
+    "name": "Nero",
+    "tag": "nero_2_4_2_2",
+    "parent_tag": "tè_2_4_2",
+    "translations": {
+      "it": {
+        "name": "Nero"
+      },
+      "en": {
+        "name": "Nero"
+      },
+      "es": {
+        "name": "Nero"
+      },
+      "fr": {
+        "name": "Nero"
+      }
+    }
+  },
+  {
+    "code": "2.4.3",
+    "name": "Infusi",
+    "tag": "infusi_2_4_3",
+    "parent_tag": "bevande_calde_2_4",
+    "translations": {
+      "it": {
+        "name": "Infusi"
+      },
+      "en": {
+        "name": "Infusi"
+      },
+      "es": {
+        "name": "Infusi"
+      },
+      "fr": {
+        "name": "Infusi"
+      }
+    }
+  },
+  {
+    "code": "2.5",
+    "name": "Alcolici",
+    "tag": "alcolici_2_5",
+    "parent_tag": "bevande_2",
+    "translations": {
+      "it": {
+        "name": "Alcolici"
+      },
+      "en": {
+        "name": "Alcolici"
+      },
+      "es": {
+        "name": "Alcolici"
+      },
+      "fr": {
+        "name": "Alcolici"
+      }
+    }
+  },
+  {
+    "code": "2.5.1",
+    "name": "Birra",
+    "tag": "birra_2_5_1",
+    "parent_tag": "alcolici_2_5",
+    "translations": {
+      "it": {
+        "name": "Birra"
+      },
+      "en": {
+        "name": "Birra"
+      },
+      "es": {
+        "name": "Birra"
+      },
+      "fr": {
+        "name": "Birra"
+      }
+    }
+  },
+  {
+    "code": "2.5.2",
+    "name": "Vino",
+    "tag": "vino_2_5_2",
+    "parent_tag": "alcolici_2_5",
+    "translations": {
+      "it": {
+        "name": "Vino"
+      },
+      "en": {
+        "name": "Vino"
+      },
+      "es": {
+        "name": "Vino"
+      },
+      "fr": {
+        "name": "Vino"
+      }
+    }
+  },
+  {
+    "code": "2.5.2.1",
+    "name": "Rosso",
+    "tag": "rosso_2_5_2_1",
+    "parent_tag": "vino_2_5_2",
+    "translations": {
+      "it": {
+        "name": "Rosso"
+      },
+      "en": {
+        "name": "Rosso"
+      },
+      "es": {
+        "name": "Rosso"
+      },
+      "fr": {
+        "name": "Rosso"
+      }
+    }
+  },
+  {
+    "code": "2.5.2.2",
+    "name": "Bianco",
+    "tag": "bianco_2_5_2_2",
+    "parent_tag": "vino_2_5_2",
+    "translations": {
+      "it": {
+        "name": "Bianco"
+      },
+      "en": {
+        "name": "Bianco"
+      },
+      "es": {
+        "name": "Bianco"
+      },
+      "fr": {
+        "name": "Bianco"
+      }
+    }
+  },
+  {
+    "code": "2.5.2.3",
+    "name": "Rosato",
+    "tag": "rosato_2_5_2_3",
+    "parent_tag": "vino_2_5_2",
+    "translations": {
+      "it": {
+        "name": "Rosato"
+      },
+      "en": {
+        "name": "Rosato"
+      },
+      "es": {
+        "name": "Rosato"
+      },
+      "fr": {
+        "name": "Rosato"
+      }
+    }
+  },
+  {
+    "code": "2.5.3",
+    "name": "Superalcolici",
+    "tag": "superalcolici_2_5_3",
+    "parent_tag": "alcolici_2_5",
+    "translations": {
+      "it": {
+        "name": "Superalcolici"
+      },
+      "en": {
+        "name": "Superalcolici"
+      },
+      "es": {
+        "name": "Superalcolici"
+      },
+      "fr": {
+        "name": "Superalcolici"
+      }
+    }
+  },
+  {
+    "code": "3",
+    "name": "CURA DELLA PERSONA",
+    "tag": "cura_della_persona_3",
+    "parent_tag": null,
+    "translations": {
+      "it": {
+        "name": "CURA DELLA PERSONA"
+      },
+      "en": {
+        "name": "CURA DELLA PERSONA"
+      },
+      "es": {
+        "name": "CURA DELLA PERSONA"
+      },
+      "fr": {
+        "name": "CURA DELLA PERSONA"
+      }
+    }
+  },
+  {
+    "code": "3.1",
+    "name": "Igiene personale",
+    "tag": "igiene_personale_3_1",
+    "parent_tag": "cura_della_persona_3",
+    "translations": {
+      "it": {
+        "name": "Igiene personale"
+      },
+      "en": {
+        "name": "Igiene personale"
+      },
+      "es": {
+        "name": "Igiene personale"
+      },
+      "fr": {
+        "name": "Igiene personale"
+      }
+    }
+  },
+  {
+    "code": "3.1.1",
+    "name": "Doccia e bagno",
+    "tag": "doccia_e_bagno_3_1_1",
+    "parent_tag": "igiene_personale_3_1",
+    "translations": {
+      "it": {
+        "name": "Doccia e bagno"
+      },
+      "en": {
+        "name": "Doccia e bagno"
+      },
+      "es": {
+        "name": "Doccia e bagno"
+      },
+      "fr": {
+        "name": "Doccia e bagno"
+      }
+    }
+  },
+  {
+    "code": "3.1.2",
+    "name": "Saponi",
+    "tag": "saponi_3_1_2",
+    "parent_tag": "igiene_personale_3_1",
+    "translations": {
+      "it": {
+        "name": "Saponi"
+      },
+      "en": {
+        "name": "Saponi"
+      },
+      "es": {
+        "name": "Saponi"
+      },
+      "fr": {
+        "name": "Saponi"
+      }
+    }
+  },
+  {
+    "code": "3.1.3",
+    "name": "Salviette",
+    "tag": "salviette_3_1_3",
+    "parent_tag": "igiene_personale_3_1",
+    "translations": {
+      "it": {
+        "name": "Salviette"
+      },
+      "en": {
+        "name": "Salviette"
+      },
+      "es": {
+        "name": "Salviette"
+      },
+      "fr": {
+        "name": "Salviette"
+      }
+    }
+  },
+  {
+    "code": "3.2",
+    "name": "Capelli",
+    "tag": "capelli_3_2",
+    "parent_tag": "cura_della_persona_3",
+    "translations": {
+      "it": {
+        "name": "Capelli"
+      },
+      "en": {
+        "name": "Capelli"
+      },
+      "es": {
+        "name": "Capelli"
+      },
+      "fr": {
+        "name": "Capelli"
+      }
+    }
+  },
+  {
+    "code": "3.2.1",
+    "name": "Shampoo",
+    "tag": "shampoo_3_2_1",
+    "parent_tag": "capelli_3_2",
+    "translations": {
+      "it": {
+        "name": "Shampoo"
+      },
+      "en": {
+        "name": "Shampoo"
+      },
+      "es": {
+        "name": "Shampoo"
+      },
+      "fr": {
+        "name": "Shampoo"
+      }
+    }
+  },
+  {
+    "code": "3.2.2",
+    "name": "Balsamo",
+    "tag": "balsamo_3_2_2",
+    "parent_tag": "capelli_3_2",
+    "translations": {
+      "it": {
+        "name": "Balsamo"
+      },
+      "en": {
+        "name": "Balsamo"
+      },
+      "es": {
+        "name": "Balsamo"
+      },
+      "fr": {
+        "name": "Balsamo"
+      }
+    }
+  },
+  {
+    "code": "3.2.3",
+    "name": "Trattamenti",
+    "tag": "trattamenti_3_2_3",
+    "parent_tag": "capelli_3_2",
+    "translations": {
+      "it": {
+        "name": "Trattamenti"
+      },
+      "en": {
+        "name": "Trattamenti"
+      },
+      "es": {
+        "name": "Trattamenti"
+      },
+      "fr": {
+        "name": "Trattamenti"
+      }
+    }
+  },
+  {
+    "code": "3.3",
+    "name": "Viso e corpo",
+    "tag": "viso_e_corpo_3_3",
+    "parent_tag": "cura_della_persona_3",
+    "translations": {
+      "it": {
+        "name": "Viso e corpo"
+      },
+      "en": {
+        "name": "Viso e corpo"
+      },
+      "es": {
+        "name": "Viso e corpo"
+      },
+      "fr": {
+        "name": "Viso e corpo"
+      }
+    }
+  },
+  {
+    "code": "3.3.1",
+    "name": "Creme viso",
+    "tag": "creme_viso_3_3_1",
+    "parent_tag": "viso_e_corpo_3_3",
+    "translations": {
+      "it": {
+        "name": "Creme viso"
+      },
+      "en": {
+        "name": "Creme viso"
+      },
+      "es": {
+        "name": "Creme viso"
+      },
+      "fr": {
+        "name": "Creme viso"
+      }
+    }
+  },
+  {
+    "code": "3.3.2",
+    "name": "Creme corpo",
+    "tag": "creme_corpo_3_3_2",
+    "parent_tag": "viso_e_corpo_3_3",
+    "translations": {
+      "it": {
+        "name": "Creme corpo"
+      },
+      "en": {
+        "name": "Creme corpo"
+      },
+      "es": {
+        "name": "Creme corpo"
+      },
+      "fr": {
+        "name": "Creme corpo"
+      }
+    }
+  },
+  {
+    "code": "3.3.3",
+    "name": "Solari",
+    "tag": "solari_3_3_3",
+    "parent_tag": "viso_e_corpo_3_3",
+    "translations": {
+      "it": {
+        "name": "Solari"
+      },
+      "en": {
+        "name": "Solari"
+      },
+      "es": {
+        "name": "Solari"
+      },
+      "fr": {
+        "name": "Solari"
+      }
+    }
+  },
+  {
+    "code": "3.4",
+    "name": "Igiene orale",
+    "tag": "igiene_orale_3_4",
+    "parent_tag": "cura_della_persona_3",
+    "translations": {
+      "it": {
+        "name": "Igiene orale"
+      },
+      "en": {
+        "name": "Igiene orale"
+      },
+      "es": {
+        "name": "Igiene orale"
+      },
+      "fr": {
+        "name": "Igiene orale"
+      }
+    }
+  },
+  {
+    "code": "3.4.1",
+    "name": "Dentifrici",
+    "tag": "dentifrici_3_4_1",
+    "parent_tag": "igiene_orale_3_4",
+    "translations": {
+      "it": {
+        "name": "Dentifrici"
+      },
+      "en": {
+        "name": "Dentifrici"
+      },
+      "es": {
+        "name": "Dentifrici"
+      },
+      "fr": {
+        "name": "Dentifrici"
+      }
+    }
+  },
+  {
+    "code": "3.4.2",
+    "name": "Spazzolini",
+    "tag": "spazzolini_3_4_2",
+    "parent_tag": "igiene_orale_3_4",
+    "translations": {
+      "it": {
+        "name": "Spazzolini"
+      },
+      "en": {
+        "name": "Spazzolini"
+      },
+      "es": {
+        "name": "Spazzolini"
+      },
+      "fr": {
+        "name": "Spazzolini"
+      }
+    }
+  },
+  {
+    "code": "3.4.3",
+    "name": "Collutori",
+    "tag": "collutori_3_4_3",
+    "parent_tag": "igiene_orale_3_4",
+    "translations": {
+      "it": {
+        "name": "Collutori"
+      },
+      "en": {
+        "name": "Collutori"
+      },
+      "es": {
+        "name": "Collutori"
+      },
+      "fr": {
+        "name": "Collutori"
+      }
+    }
+  },
+  {
+    "code": "3.5",
+    "name": "Rasatura e depilazione",
+    "tag": "rasatura_e_depilazione_3_5",
+    "parent_tag": "cura_della_persona_3",
+    "translations": {
+      "it": {
+        "name": "Rasatura e depilazione"
+      },
+      "en": {
+        "name": "Rasatura e depilazione"
+      },
+      "es": {
+        "name": "Rasatura e depilazione"
+      },
+      "fr": {
+        "name": "Rasatura e depilazione"
+      }
+    }
+  },
+  {
+    "code": "3.5.1",
+    "name": "Rasoi",
+    "tag": "rasoi_3_5_1",
+    "parent_tag": "rasatura_e_depilazione_3_5",
+    "translations": {
+      "it": {
+        "name": "Rasoi"
+      },
+      "en": {
+        "name": "Rasoi"
+      },
+      "es": {
+        "name": "Rasoi"
+      },
+      "fr": {
+        "name": "Rasoi"
+      }
+    }
+  },
+  {
+    "code": "3.5.2",
+    "name": "Creme depilatorie",
+    "tag": "creme_depilatorie_3_5_2",
+    "parent_tag": "rasatura_e_depilazione_3_5",
+    "translations": {
+      "it": {
+        "name": "Creme depilatorie"
+      },
+      "en": {
+        "name": "Creme depilatorie"
+      },
+      "es": {
+        "name": "Creme depilatorie"
+      },
+      "fr": {
+        "name": "Creme depilatorie"
+      }
+    }
+  },
+  {
+    "code": "3.6",
+    "name": "Cosmetici",
+    "tag": "cosmetici_3_6",
+    "parent_tag": "cura_della_persona_3",
+    "translations": {
+      "it": {
+        "name": "Cosmetici"
+      },
+      "en": {
+        "name": "Cosmetici"
+      },
+      "es": {
+        "name": "Cosmetici"
+      },
+      "fr": {
+        "name": "Cosmetici"
+      }
+    }
+  },
+  {
+    "code": "3.6.1",
+    "name": "Make-up",
+    "tag": "make_up_3_6_1",
+    "parent_tag": "cosmetici_3_6",
+    "translations": {
+      "it": {
+        "name": "Make-up"
+      },
+      "en": {
+        "name": "Make-up"
+      },
+      "es": {
+        "name": "Make-up"
+      },
+      "fr": {
+        "name": "Make-up"
+      }
+    }
+  },
+  {
+    "code": "3.6.2",
+    "name": "Struccanti",
+    "tag": "struccanti_3_6_2",
+    "parent_tag": "cosmetici_3_6",
+    "translations": {
+      "it": {
+        "name": "Struccanti"
+      },
+      "en": {
+        "name": "Struccanti"
+      },
+      "es": {
+        "name": "Struccanti"
+      },
+      "fr": {
+        "name": "Struccanti"
+      }
+    }
+  },
+  {
+    "code": "4",
+    "name": "CURA DELLA CASA",
+    "tag": "cura_della_casa_4",
+    "parent_tag": null,
+    "translations": {
+      "it": {
+        "name": "CURA DELLA CASA"
+      },
+      "en": {
+        "name": "CURA DELLA CASA"
+      },
+      "es": {
+        "name": "CURA DELLA CASA"
+      },
+      "fr": {
+        "name": "CURA DELLA CASA"
+      }
+    }
+  },
+  {
+    "code": "4.1",
+    "name": "Detersivi",
+    "tag": "detersivi_4_1",
+    "parent_tag": "cura_della_casa_4",
+    "translations": {
+      "it": {
+        "name": "Detersivi"
+      },
+      "en": {
+        "name": "Detersivi"
+      },
+      "es": {
+        "name": "Detersivi"
+      },
+      "fr": {
+        "name": "Detersivi"
+      }
+    }
+  },
+  {
+    "code": "4.1.1",
+    "name": "Bucato",
+    "tag": "bucato_4_1_1",
+    "parent_tag": "detersivi_4_1",
+    "translations": {
+      "it": {
+        "name": "Bucato"
+      },
+      "en": {
+        "name": "Bucato"
+      },
+      "es": {
+        "name": "Bucato"
+      },
+      "fr": {
+        "name": "Bucato"
+      }
+    }
+  },
+  {
+    "code": "4.1.2",
+    "name": "Piatti",
+    "tag": "piatti_4_1_2",
+    "parent_tag": "detersivi_4_1",
+    "translations": {
+      "it": {
+        "name": "Piatti"
+      },
+      "en": {
+        "name": "Piatti"
+      },
+      "es": {
+        "name": "Piatti"
+      },
+      "fr": {
+        "name": "Piatti"
+      }
+    }
+  },
+  {
+    "code": "4.1.3",
+    "name": "Pavimenti",
+    "tag": "pavimenti_4_1_3",
+    "parent_tag": "detersivi_4_1",
+    "translations": {
+      "it": {
+        "name": "Pavimenti"
+      },
+      "en": {
+        "name": "Pavimenti"
+      },
+      "es": {
+        "name": "Pavimenti"
+      },
+      "fr": {
+        "name": "Pavimenti"
+      }
+    }
+  },
+  {
+    "code": "4.2",
+    "name": "Carta e accessori",
+    "tag": "carta_e_accessori_4_2",
+    "parent_tag": "cura_della_casa_4",
+    "translations": {
+      "it": {
+        "name": "Carta e accessori"
+      },
+      "en": {
+        "name": "Carta e accessori"
+      },
+      "es": {
+        "name": "Carta e accessori"
+      },
+      "fr": {
+        "name": "Carta e accessori"
+      }
+    }
+  },
+  {
+    "code": "4.2.1",
+    "name": "Carta igienica",
+    "tag": "carta_igienica_4_2_1",
+    "parent_tag": "carta_e_accessori_4_2",
+    "translations": {
+      "it": {
+        "name": "Carta igienica"
+      },
+      "en": {
+        "name": "Carta igienica"
+      },
+      "es": {
+        "name": "Carta igienica"
+      },
+      "fr": {
+        "name": "Carta igienica"
+      }
+    }
+  },
+  {
+    "code": "4.2.2",
+    "name": "Scottex",
+    "tag": "scottex_4_2_2",
+    "parent_tag": "carta_e_accessori_4_2",
+    "translations": {
+      "it": {
+        "name": "Scottex"
+      },
+      "en": {
+        "name": "Scottex"
+      },
+      "es": {
+        "name": "Scottex"
+      },
+      "fr": {
+        "name": "Scottex"
+      }
+    }
+  },
+  {
+    "code": "4.2.3",
+    "name": "Fazzoletti",
+    "tag": "fazzoletti_4_2_3",
+    "parent_tag": "carta_e_accessori_4_2",
+    "translations": {
+      "it": {
+        "name": "Fazzoletti"
+      },
+      "en": {
+        "name": "Fazzoletti"
+      },
+      "es": {
+        "name": "Fazzoletti"
+      },
+      "fr": {
+        "name": "Fazzoletti"
+      }
+    }
+  },
+  {
+    "code": "4.3",
+    "name": "Deodoranti ambientali",
+    "tag": "deodoranti_ambientali_4_3",
+    "parent_tag": "cura_della_casa_4",
+    "translations": {
+      "it": {
+        "name": "Deodoranti ambientali"
+      },
+      "en": {
+        "name": "Deodoranti ambientali"
+      },
+      "es": {
+        "name": "Deodoranti ambientali"
+      },
+      "fr": {
+        "name": "Deodoranti ambientali"
+      }
+    }
+  },
+  {
+    "code": "4.3.1",
+    "name": "Spray",
+    "tag": "spray_4_3_1",
+    "parent_tag": "deodoranti_ambientali_4_3",
+    "translations": {
+      "it": {
+        "name": "Spray"
+      },
+      "en": {
+        "name": "Spray"
+      },
+      "es": {
+        "name": "Spray"
+      },
+      "fr": {
+        "name": "Spray"
+      }
+    }
+  },
+  {
+    "code": "4.3.2",
+    "name": "Diffusori",
+    "tag": "diffusori_4_3_2",
+    "parent_tag": "deodoranti_ambientali_4_3",
+    "translations": {
+      "it": {
+        "name": "Diffusori"
+      },
+      "en": {
+        "name": "Diffusori"
+      },
+      "es": {
+        "name": "Diffusori"
+      },
+      "fr": {
+        "name": "Diffusori"
+      }
+    }
+  },
+  {
+    "code": "4.4",
+    "name": "Insetticidi",
+    "tag": "insetticidi_4_4",
+    "parent_tag": "cura_della_casa_4",
+    "translations": {
+      "it": {
+        "name": "Insetticidi"
+      },
+      "en": {
+        "name": "Insetticidi"
+      },
+      "es": {
+        "name": "Insetticidi"
+      },
+      "fr": {
+        "name": "Insetticidi"
+      }
+    }
+  },
+  {
+    "code": "4.4.1",
+    "name": "Spray",
+    "tag": "spray_4_4_1",
+    "parent_tag": "insetticidi_4_4",
+    "translations": {
+      "it": {
+        "name": "Spray"
+      },
+      "en": {
+        "name": "Spray"
+      },
+      "es": {
+        "name": "Spray"
+      },
+      "fr": {
+        "name": "Spray"
+      }
+    }
+  },
+  {
+    "code": "4.4.2",
+    "name": "Trappole",
+    "tag": "trappole_4_4_2",
+    "parent_tag": "insetticidi_4_4",
+    "translations": {
+      "it": {
+        "name": "Trappole"
+      },
+      "en": {
+        "name": "Trappole"
+      },
+      "es": {
+        "name": "Trappole"
+      },
+      "fr": {
+        "name": "Trappole"
+      }
+    }
+  },
+  {
+    "code": "5",
+    "name": "ANIMALI",
+    "tag": "animali_5",
+    "parent_tag": null,
+    "translations": {
+      "it": {
+        "name": "ANIMALI"
+      },
+      "en": {
+        "name": "ANIMALI"
+      },
+      "es": {
+        "name": "ANIMALI"
+      },
+      "fr": {
+        "name": "ANIMALI"
+      }
+    }
+  },
+  {
+    "code": "5.1",
+    "name": "Cani",
+    "tag": "cani_5_1",
+    "parent_tag": "animali_5",
+    "translations": {
+      "it": {
+        "name": "Cani"
+      },
+      "en": {
+        "name": "Cani"
+      },
+      "es": {
+        "name": "Cani"
+      },
+      "fr": {
+        "name": "Cani"
+      }
+    }
+  },
+  {
+    "code": "5.1.1",
+    "name": "Cibo secco",
+    "tag": "cibo_secco_5_1_1",
+    "parent_tag": "cani_5_1",
+    "translations": {
+      "it": {
+        "name": "Cibo secco"
+      },
+      "en": {
+        "name": "Cibo secco"
+      },
+      "es": {
+        "name": "Cibo secco"
+      },
+      "fr": {
+        "name": "Cibo secco"
+      }
+    }
+  },
+  {
+    "code": "5.1.2",
+    "name": "Cibo umido",
+    "tag": "cibo_umido_5_1_2",
+    "parent_tag": "cani_5_1",
+    "translations": {
+      "it": {
+        "name": "Cibo umido"
+      },
+      "en": {
+        "name": "Cibo umido"
+      },
+      "es": {
+        "name": "Cibo umido"
+      },
+      "fr": {
+        "name": "Cibo umido"
+      }
+    }
+  },
+  {
+    "code": "5.1.3",
+    "name": "Snack",
+    "tag": "snack_5_1_3",
+    "parent_tag": "cani_5_1",
+    "translations": {
+      "it": {
+        "name": "Snack"
+      },
+      "en": {
+        "name": "Snack"
+      },
+      "es": {
+        "name": "Snack"
+      },
+      "fr": {
+        "name": "Snack"
+      }
+    }
+  },
+  {
+    "code": "5.1.4",
+    "name": "Accessori",
+    "tag": "accessori_5_1_4",
+    "parent_tag": "cani_5_1",
+    "translations": {
+      "it": {
+        "name": "Accessori"
+      },
+      "en": {
+        "name": "Accessori"
+      },
+      "es": {
+        "name": "Accessori"
+      },
+      "fr": {
+        "name": "Accessori"
+      }
+    }
+  },
+  {
+    "code": "5.2",
+    "name": "Gatti",
+    "tag": "gatti_5_2",
+    "parent_tag": "animali_5",
+    "translations": {
+      "it": {
+        "name": "Gatti"
+      },
+      "en": {
+        "name": "Gatti"
+      },
+      "es": {
+        "name": "Gatti"
+      },
+      "fr": {
+        "name": "Gatti"
+      }
+    }
+  },
+  {
+    "code": "5.2.1",
+    "name": "Cibo secco",
+    "tag": "cibo_secco_5_2_1",
+    "parent_tag": "gatti_5_2",
+    "translations": {
+      "it": {
+        "name": "Cibo secco"
+      },
+      "en": {
+        "name": "Cibo secco"
+      },
+      "es": {
+        "name": "Cibo secco"
+      },
+      "fr": {
+        "name": "Cibo secco"
+      }
+    }
+  },
+  {
+    "code": "5.2.2",
+    "name": "Cibo umido",
+    "tag": "cibo_umido_5_2_2",
+    "parent_tag": "gatti_5_2",
+    "translations": {
+      "it": {
+        "name": "Cibo umido"
+      },
+      "en": {
+        "name": "Cibo umido"
+      },
+      "es": {
+        "name": "Cibo umido"
+      },
+      "fr": {
+        "name": "Cibo umido"
+      }
+    }
+  },
+  {
+    "code": "5.2.3",
+    "name": "Lettiera",
+    "tag": "lettiera_5_2_3",
+    "parent_tag": "gatti_5_2",
+    "translations": {
+      "it": {
+        "name": "Lettiera"
+      },
+      "en": {
+        "name": "Lettiera"
+      },
+      "es": {
+        "name": "Lettiera"
+      },
+      "fr": {
+        "name": "Lettiera"
+      }
+    }
+  },
+  {
+    "code": "5.3",
+    "name": "Altri animali",
+    "tag": "altri_animali_5_3",
+    "parent_tag": "animali_5",
+    "translations": {
+      "it": {
+        "name": "Altri animali"
+      },
+      "en": {
+        "name": "Altri animali"
+      },
+      "es": {
+        "name": "Altri animali"
+      },
+      "fr": {
+        "name": "Altri animali"
+      }
+    }
+  },
+  {
+    "code": "5.3.1",
+    "name": "Uccelli",
+    "tag": "uccelli_5_3_1",
+    "parent_tag": "altri_animali_5_3",
+    "translations": {
+      "it": {
+        "name": "Uccelli"
+      },
+      "en": {
+        "name": "Uccelli"
+      },
+      "es": {
+        "name": "Uccelli"
+      },
+      "fr": {
+        "name": "Uccelli"
+      }
+    }
+  },
+  {
+    "code": "5.3.2",
+    "name": "Roditori",
+    "tag": "roditori_5_3_2",
+    "parent_tag": "altri_animali_5_3",
+    "translations": {
+      "it": {
+        "name": "Roditori"
+      },
+      "en": {
+        "name": "Roditori"
+      },
+      "es": {
+        "name": "Roditori"
+      },
+      "fr": {
+        "name": "Roditori"
+      }
+    }
+  },
+  {
+    "code": "5.3.3",
+    "name": "Pesci",
+    "tag": "pesci_5_3_3",
+    "parent_tag": "altri_animali_5_3",
+    "translations": {
+      "it": {
+        "name": "Pesci"
+      },
+      "en": {
+        "name": "Pesci"
+      },
+      "es": {
+        "name": "Pesci"
+      },
+      "fr": {
+        "name": "Pesci"
+      }
+    }
+  },
+  {
+    "code": "6",
+    "name": "INFANZIA",
+    "tag": "infanzia_6",
+    "parent_tag": null,
+    "translations": {
+      "it": {
+        "name": "INFANZIA"
+      },
+      "en": {
+        "name": "INFANZIA"
+      },
+      "es": {
+        "name": "INFANZIA"
+      },
+      "fr": {
+        "name": "INFANZIA"
+      }
+    }
+  },
+  {
+    "code": "6.1",
+    "name": "Alimenti",
+    "tag": "alimenti_6_1",
+    "parent_tag": "infanzia_6",
+    "translations": {
+      "it": {
+        "name": "Alimenti"
+      },
+      "en": {
+        "name": "Alimenti"
+      },
+      "es": {
+        "name": "Alimenti"
+      },
+      "fr": {
+        "name": "Alimenti"
+      }
+    }
+  },
+  {
+    "code": "6.1.1",
+    "name": "Latte artificiale",
+    "tag": "latte_artificiale_6_1_1",
+    "parent_tag": "alimenti_6_1",
+    "translations": {
+      "it": {
+        "name": "Latte artificiale"
+      },
+      "en": {
+        "name": "Latte artificiale"
+      },
+      "es": {
+        "name": "Latte artificiale"
+      },
+      "fr": {
+        "name": "Latte artificiale"
+      }
+    }
+  },
+  {
+    "code": "6.1.2",
+    "name": "Omogeneizzati",
+    "tag": "omogeneizzati_6_1_2",
+    "parent_tag": "alimenti_6_1",
+    "translations": {
+      "it": {
+        "name": "Omogeneizzati"
+      },
+      "en": {
+        "name": "Omogeneizzati"
+      },
+      "es": {
+        "name": "Omogeneizzati"
+      },
+      "fr": {
+        "name": "Omogeneizzati"
+      }
+    }
+  },
+  {
+    "code": "6.1.3",
+    "name": "Pappe",
+    "tag": "pappe_6_1_3",
+    "parent_tag": "alimenti_6_1",
+    "translations": {
+      "it": {
+        "name": "Pappe"
+      },
+      "en": {
+        "name": "Pappe"
+      },
+      "es": {
+        "name": "Pappe"
+      },
+      "fr": {
+        "name": "Pappe"
+      }
+    }
+  },
+  {
+    "code": "6.2",
+    "name": "Cura",
+    "tag": "cura_6_2",
+    "parent_tag": "infanzia_6",
+    "translations": {
+      "it": {
+        "name": "Cura"
+      },
+      "en": {
+        "name": "Cura"
+      },
+      "es": {
+        "name": "Cura"
+      },
+      "fr": {
+        "name": "Cura"
+      }
+    }
+  },
+  {
+    "code": "6.2.1",
+    "name": "Pannolini",
+    "tag": "pannolini_6_2_1",
+    "parent_tag": "cura_6_2",
+    "translations": {
+      "it": {
+        "name": "Pannolini"
+      },
+      "en": {
+        "name": "Pannolini"
+      },
+      "es": {
+        "name": "Pannolini"
+      },
+      "fr": {
+        "name": "Pannolini"
+      }
+    }
+  },
+  {
+    "code": "6.2.2",
+    "name": "Salviette",
+    "tag": "salviette_6_2_2",
+    "parent_tag": "cura_6_2",
+    "translations": {
+      "it": {
+        "name": "Salviette"
+      },
+      "en": {
+        "name": "Salviette"
+      },
+      "es": {
+        "name": "Salviette"
+      },
+      "fr": {
+        "name": "Salviette"
+      }
+    }
+  },
+  {
+    "code": "6.2.3",
+    "name": "Prodotti bagno",
+    "tag": "prodotti_bagno_6_2_3",
+    "parent_tag": "cura_6_2",
+    "translations": {
+      "it": {
+        "name": "Prodotti bagno"
+      },
+      "en": {
+        "name": "Prodotti bagno"
+      },
+      "es": {
+        "name": "Prodotti bagno"
+      },
+      "fr": {
+        "name": "Prodotti bagno"
+      }
+    }
+  },
+  {
+    "code": "7",
+    "name": "SALUTE E BENESSERE",
+    "tag": "salute_e_benessere_7",
+    "parent_tag": null,
+    "translations": {
+      "it": {
+        "name": "SALUTE E BENESSERE"
+      },
+      "en": {
+        "name": "SALUTE E BENESSERE"
+      },
+      "es": {
+        "name": "SALUTE E BENESSERE"
+      },
+      "fr": {
+        "name": "SALUTE E BENESSERE"
+      }
+    }
+  },
+  {
+    "code": "7.1",
+    "name": "Integratori",
+    "tag": "integratori_7_1",
+    "parent_tag": "salute_e_benessere_7",
+    "translations": {
+      "it": {
+        "name": "Integratori"
+      },
+      "en": {
+        "name": "Integratori"
+      },
+      "es": {
+        "name": "Integratori"
+      },
+      "fr": {
+        "name": "Integratori"
+      }
+    }
+  },
+  {
+    "code": "7.1.1",
+    "name": "Vitamine",
+    "tag": "vitamine_7_1_1",
+    "parent_tag": "integratori_7_1",
+    "translations": {
+      "it": {
+        "name": "Vitamine"
+      },
+      "en": {
+        "name": "Vitamine"
+      },
+      "es": {
+        "name": "Vitamine"
+      },
+      "fr": {
+        "name": "Vitamine"
+      }
+    }
+  },
+  {
+    "code": "7.1.2",
+    "name": "Minerali",
+    "tag": "minerali_7_1_2",
+    "parent_tag": "integratori_7_1",
+    "translations": {
+      "it": {
+        "name": "Minerali"
+      },
+      "en": {
+        "name": "Minerali"
+      },
+      "es": {
+        "name": "Minerali"
+      },
+      "fr": {
+        "name": "Minerali"
+      }
+    }
+  },
+  {
+    "code": "7.1.3",
+    "name": "Sportivi",
+    "tag": "sportivi_7_1_3",
+    "parent_tag": "integratori_7_1",
+    "translations": {
+      "it": {
+        "name": "Sportivi"
+      },
+      "en": {
+        "name": "Sportivi"
+      },
+      "es": {
+        "name": "Sportivi"
+      },
+      "fr": {
+        "name": "Sportivi"
+      }
+    }
+  },
+  {
+    "code": "7.2",
+    "name": "Farmaci da banco",
+    "tag": "farmaci_da_banco_7_2",
+    "parent_tag": "salute_e_benessere_7",
+    "translations": {
+      "it": {
+        "name": "Farmaci da banco"
+      },
+      "en": {
+        "name": "Farmaci da banco"
+      },
+      "es": {
+        "name": "Farmaci da banco"
+      },
+      "fr": {
+        "name": "Farmaci da banco"
+      }
+    }
+  },
+  {
+    "code": "7.3",
+    "name": "Parafarmacia",
+    "tag": "parafarmacia_7_3",
+    "parent_tag": "salute_e_benessere_7",
+    "translations": {
+      "it": {
+        "name": "Parafarmacia"
+      },
+      "en": {
+        "name": "Parafarmacia"
+      },
+      "es": {
+        "name": "Parafarmacia"
+      },
+      "fr": {
+        "name": "Parafarmacia"
+      }
+    }
+  },
+  {
+    "code": "7.3.1",
+    "name": "Disinfettanti",
+    "tag": "disinfettanti_7_3_1",
+    "parent_tag": "parafarmacia_7_3",
+    "translations": {
+      "it": {
+        "name": "Disinfettanti"
+      },
+      "en": {
+        "name": "Disinfettanti"
+      },
+      "es": {
+        "name": "Disinfettanti"
+      },
+      "fr": {
+        "name": "Disinfettanti"
+      }
+    }
+  },
+  {
+    "code": "7.3.2",
+    "name": "Cerotti",
+    "tag": "cerotti_7_3_2",
+    "parent_tag": "parafarmacia_7_3",
+    "translations": {
+      "it": {
+        "name": "Cerotti"
+      },
+      "en": {
+        "name": "Cerotti"
+      },
+      "es": {
+        "name": "Cerotti"
+      },
+      "fr": {
+        "name": "Cerotti"
+      }
+    }
+  },
+  {
+    "code": "8",
+    "name": "ALTRO",
+    "tag": "altro_8",
+    "parent_tag": null,
+    "translations": {
+      "it": {
+        "name": "ALTRO"
+      },
+      "en": {
+        "name": "ALTRO"
+      },
+      "es": {
+        "name": "ALTRO"
+      },
+      "fr": {
+        "name": "ALTRO"
+      }
+    }
+  },
+  {
+    "code": "8.1",
+    "name": "Stagionali",
+    "tag": "stagionali_8_1",
+    "parent_tag": "altro_8",
+    "translations": {
+      "it": {
+        "name": "Stagionali"
+      },
+      "en": {
+        "name": "Stagionali"
+      },
+      "es": {
+        "name": "Stagionali"
+      },
+      "fr": {
+        "name": "Stagionali"
+      }
+    }
+  },
+  {
+    "code": "8.1.1",
+    "name": "Natale",
+    "tag": "natale_8_1_1",
+    "parent_tag": "stagionali_8_1",
+    "translations": {
+      "it": {
+        "name": "Natale"
+      },
+      "en": {
+        "name": "Natale"
+      },
+      "es": {
+        "name": "Natale"
+      },
+      "fr": {
+        "name": "Natale"
+      }
+    }
+  },
+  {
+    "code": "8.1.2",
+    "name": "Pasqua",
+    "tag": "pasqua_8_1_2",
+    "parent_tag": "stagionali_8_1",
+    "translations": {
+      "it": {
+        "name": "Pasqua"
+      },
+      "en": {
+        "name": "Pasqua"
+      },
+      "es": {
+        "name": "Pasqua"
+      },
+      "fr": {
+        "name": "Pasqua"
+      }
+    }
+  },
+  {
+    "code": "8.2",
+    "name": "Accessori casa",
+    "tag": "accessori_casa_8_2",
+    "parent_tag": "altro_8",
+    "translations": {
+      "it": {
+        "name": "Accessori casa"
+      },
+      "en": {
+        "name": "Accessori casa"
+      },
+      "es": {
+        "name": "Accessori casa"
+      },
+      "fr": {
+        "name": "Accessori casa"
+      }
+    }
+  },
+  {
+    "code": "8.3",
+    "name": "Prodotti non classificati",
+    "tag": "prodotti_non_classificati_8_3",
+    "parent_tag": "altro_8",
+    "translations": {
+      "it": {
+        "name": "Prodotti non classificati"
+      },
+      "en": {
+        "name": "Prodotti non classificati"
+      },
+      "es": {
+        "name": "Prodotti non classificati"
+      },
+      "fr": {
+        "name": "Prodotti non classificati"
+      }
+    }
+  }
+]

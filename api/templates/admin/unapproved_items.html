@@ -1,0 +1,96 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<h1>Anagrafiche in attesa di approvazione</h1>
+
+<h2>Prodotti</h2>
+<table class="adminlist">
+  <thead>
+    <tr><th>Nome</th><th>EAN</th><th>Azioni</th></tr>
+  </thead>
+  <tbody>
+  {% for obj in products %}
+    <tr>
+      <td>{{ obj.name }}</td>
+      <td>{{ obj.ean }}</td>
+      <td><a href="{% url 'admin:api_product_change' obj.id %}">Revisiona</a></td>
+    </tr>
+  {% empty %}
+    <tr><td colspan="3">Nessun prodotto in attesa</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<h2>Prezzi</h2>
+<table class="adminlist">
+  <thead>
+    <tr><th>Prodotto</th><th>Store</th><th>Prezzo</th><th>Azioni</th></tr>
+  </thead>
+  <tbody>
+  {% for obj in prices %}
+    <tr>
+      <td>{{ obj.product.name }}</td>
+      <td>{{ obj.store.name }}</td>
+      <td>{{ obj.price }} {{ obj.currency }}</td>
+      <td><a href="{% url 'admin:api_price_change' obj.id %}">Revisiona</a></td>
+    </tr>
+  {% empty %}
+    <tr><td colspan="4">Nessun prezzo in attesa</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<h2>Store</h2>
+<table class="adminlist">
+  <thead>
+    <tr><th>Nome</th><th>Tipo</th><th>Azioni</th></tr>
+  </thead>
+  <tbody>
+  {% for obj in stores %}
+    <tr>
+      <td>{{ obj.name }}</td>
+      <td>{{ obj.get_store_type_display }}</td>
+      <td><a href="{% url 'admin:api_store_change' obj.id %}">Revisiona</a></td>
+    </tr>
+  {% empty %}
+    <tr><td colspan="3">Nessun store in attesa</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<h2>Categorie</h2>
+<table class="adminlist">
+  <thead>
+    <tr><th>Nome</th><th>Azioni</th></tr>
+  </thead>
+  <tbody>
+  {% for obj in categories %}
+    <tr>
+      <td>{{ obj.name }}</td>
+      <td><a href="{% url 'admin:api_category_change' obj.id %}">Revisiona</a></td>
+    </tr>
+  {% empty %}
+    <tr><td colspan="2">Nessuna categoria in attesa</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<h2>Richieste di modifica</h2>
+<table class="adminlist">
+  <thead>
+    <tr><th>Prodotto</th><th>Utente</th><th>Azioni</th></tr>
+  </thead>
+  <tbody>
+  {% for obj in changes %}
+    <tr>
+      <td>{{ obj.product.name }}</td>
+      <td>{{ obj.user }}</td>
+      <td><a href="{% url 'admin:api_productchangerequest_change' obj.id %}">Revisiona</a></td>
+    </tr>
+  {% empty %}
+    <tr><td colspan="3">Nessuna richiesta in attesa</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}
