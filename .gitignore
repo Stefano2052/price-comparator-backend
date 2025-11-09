@@ -17,3 +17,6 @@ staticfiles/
 .idea/
 .DS_Store
 *.log
+
+# Firebase credentials
+backend/credentials/*.json
