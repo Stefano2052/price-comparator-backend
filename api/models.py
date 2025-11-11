@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
-from django.contrib.postgres.fields import ArrayField
+
 
 # 🔹 Categoria merceologica
 class Category(models.Model):
@@ -19,6 +19,7 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
+
 # 🔹 Estensione profilo utente
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
@@ -29,6 +30,7 @@ class UserProfile(models.Model):
     def __str__(self):
         return f"Profilo di {self.user.username}"
 
+
 # 🔹 Prodotto
 class Product(models.Model):
     translations = models.JSONField(null=True, blank=True)  # 🔹 Testi multilingua strutturati
@@ -37,37 +39,41 @@ class Product(models.Model):
     brand = models.CharField(max_length=20, null=True, blank=True)
     quantity = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
     unit = models.CharField(max_length=10, null=True, blank=True, default='NA')
+
     categories = models.ManyToManyField(Category, blank=True)
     imported_categories = models.ManyToManyField(
         Category,
         blank=True,
         related_name="imported_products"
     )
+
     image_url = models.URLField(null=True, blank=True)
 
     ecoscore_grade = models.CharField(max_length=10, null=True, blank=True)
     nova_group = models.PositiveSmallIntegerField(null=True, blank=True)
     nutrition_grade = models.CharField(max_length=10, null=True, blank=True)
-    packaging_tags = ArrayField(models.CharField(max_length=100), blank=True, null=True)
-    labels_tags = ArrayField(models.CharField(max_length=100), blank=True, null=True)
-    allergens_tags = ArrayField(models.CharField(max_length=100), blank=True, null=True)
-    additives_tags = ArrayField(models.CharField(max_length=100), blank=True, null=True)
-    origins_tags = ArrayField(models.CharField(max_length=100), blank=True, null=True)
+
+    # ✅ Liste compatibili SQLite/Postgres
+    packaging_tags = models.JSONField(default=list, blank=True, null=True)
+    labels_tags = models.JSONField(default=list, blank=True, null=True)
+    allergens_tags = models.JSONField(default=list, blank=True, null=True)
+    additives_tags = models.JSONField(default=list, blank=True, null=True)
+    origins_tags = models.JSONField(default=list, blank=True, null=True)
 
     ingredients_text = models.TextField(null=True, blank=True)
     ingredients = models.JSONField(null=True, blank=True)  # 🔹 Strutturati
     nutrients = models.JSONField(null=True, blank=True)    # 🔹 Valori nutrizionali
-
     raw_data = models.JSONField(null=True, blank=True)
-    translations = models.JSONField(null=True, blank=True)  # 🔹 Testi multilingua strutturati
 
     last_synced_at = models.DateTimeField(auto_now=True)
     created_at = models.DateTimeField(auto_now_add=True)
     is_approved = models.BooleanField(default=False)
+
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
 
     def __str__(self):
         return f"{self.name} ({self.ean})"
+
 
 # 🔹 Store (fisico o online)
 class Store(models.Model):
@@ -88,6 +94,7 @@ class Store(models.Model):
     def __str__(self):
         return self.name
 
+
 # 🔹 Prezzo
 class Price(models.Model):
     PRICE_TYPE_CHOICES = [
@@ -107,6 +114,7 @@ class Price(models.Model):
     def __str__(self):
         return f"{self.price} {self.currency} @ {self.store} - {self.product}"
 
+
 # 🔹 Modifica proposta a un prodotto
 class ProductChangeRequest(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='change_requests')
@@ -123,6 +131,7 @@ class ProductChangeRequest(models.Model):
     def __str__(self):
         return f"Modifica per {self.product.name} da {self.user}"
 
+
 class ProductViewLog(models.Model):
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
@@ -131,4 +140,3 @@ class ProductViewLog(models.Model):
 
     def __str__(self):
         return f"{self.user} - {self.product} at {self.timestamp}"
-
