@@ -1,4 +1,6 @@
-services:
+THIS_SHOULD_NOT_BE_HERE: [
+  
+  services:
   - type: web
     name: price-comparator-backend
     env: python
