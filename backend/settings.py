@@ -156,8 +156,11 @@ if FIREBASE_CREDENTIALS_JSON:
         if not firebase_admin._apps:
             cred = credentials.Certificate(json.loads(FIREBASE_CREDENTIALS_JSON))
             firebase_admin.initialize_app(cred)
+            print("🔥 Firebase Admin inizializzato correttamente")
     except Exception as e:
         print(f"⚠️ Firebase init failed: {e}")
+else:
+    print("⚠️ FIREBASE_SERVICE_ACCOUNT_JSON non impostato, Firebase non inizializzato")
 
 
 # -------------------------------------------------------------------
