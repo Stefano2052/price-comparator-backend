@@ -1,11 +1,9 @@
-THIS_SHOULD_NOT_BE_HERE: [
-  
-  services:
+services:
   - type: web
     name: price-comparator-backend
     env: python
-    plan: free
     region: frankfurt
+    plan: free
     branch: main
     autoDeploy: true
 
@@ -15,21 +13,30 @@ THIS_SHOULD_NOT_BE_HERE: [
       python manage.py collectstatic --noinput
       python manage.py migrate --noinput
 
-    startCommand: gunicorn backend.wsgi:application --workers=${WEB_CONCURRENCY:-3} --bind 0.0.0.0:${PORT}
-
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.9  # 3.13 è troppo nuova per molti pacchetti Django, meglio stabile
-      - key: DJANGO_SETTINGS_MODULE
-        value: backend.settings
-      - key: DJANGO_SECRET_KEY
-        generateValue: true
-      - key: DEBUG
-        value: false
-      - key: ALLOWED_HOSTS
-        value: .onrender.com,localhost,127.0.0.1
-      - key: TZ
-        value: Europe/Rome
+    startCommand: gunicorn backend.wsgi:application --workers=${WEB_CONCURRENCY:-3} --bind=0.0.0.0:${PORT}
 
     postdeploy:
       - python manage.py createsu
+
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+
+      - key: DJANGO_SETTINGS_MODULE
+        value: backend.settings
+
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+
+      - key: DEBUG
+        value: false
+
+      - key: ALLOWED_HOSTS
+        value: .onrender.com,localhost,127.0.0.1
+
+      - key: TZ
+        value: Europe/Rome
+
+      # 🔥 Firebase: variabile obbligatoria nei blueprint
+      - key: FIREBASE_SERVICE_ACCOUNT_JSON
+        sync: false   # indica a Render che è una secret e non va versionata
