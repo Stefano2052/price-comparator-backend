@@ -7,7 +7,7 @@ from .views import (
     UserContributionsView, recent_product_views
 )
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
-from .views_auth import FirebaseAuthConvertView, CurrentUserMe   
+from .views_firebase import FirebaseAuthConvertView, CurrentUserMe   
 
 router = DefaultRouter()
 router.register(r'products', ProductViewSet, basename='product')
