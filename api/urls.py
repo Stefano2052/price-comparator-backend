@@ -1,5 +1,7 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
+
+from backend.settings import debug_flag
 from . import views
 from .views import (
     ProductViewLogViewSet, ProductViewSet, PriceViewSet, StoreViewSet,
