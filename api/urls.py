@@ -1,14 +1,13 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
-from backend.settings import debug_flag
 from . import views
 from .views import (
     ProductViewLogViewSet, ProductViewSet, PriceViewSet, StoreViewSet,
     CategoryViewSet, ProductChangeRequestViewSet, UserPreferencesView,
-    UserContributionsView, recent_product_views
+    UserContributionsView
 )
-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView, TokenVerifyView
 from .views_firebase import FirebaseAuthConvertView, CurrentUserMe   
 
 router = DefaultRouter()
@@ -29,4 +28,5 @@ urlpatterns = [
     path('recent-product-views/', views.recent_product_views, name='recent_product_views'),
     path('convert-token/', FirebaseAuthConvertView.as_view(), name='convert_token'),
     path('users/me/', CurrentUserMe.as_view(), name='users-me'),
+    path('token/verify/', TokenVerifyView.as_view(), name='token_verify'),
 ]
