@@ -1,7 +1,7 @@
 services:
   - type: web
     name: price-comparator-backend
-    env: python
+    env: python3
     region: frankfurt
     plan: free
     branch: main
