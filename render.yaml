@@ -1,7 +1,8 @@
+services:
   - type: web
     name: price-comparator-backend
     runtime: python
-    plan: free       # <--- CAMBIATO QUI
+    plan: free
     region: frankfurt
     buildCommand: >
       pip install -r requirements.txt &&
@@ -14,7 +15,7 @@
   - type: cron
     name: product-scraper
     runtime: python
-    plan: free       # <--- CAMBIATO QUI
+    plan: free
     region: frankfurt
     schedule: "0 */6 * * *"
     buildCommand: >
